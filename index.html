@@ -7,13 +7,22 @@
     <title>
         Floating and Positioning
     </title>
+    <script>
+        function showSideBar() {
+            document.getElementById("side-bar").style.display = "block"
+        }
+        function hideSideBar() {
+            document.getElementById("side-bar").style.display = "none"
+        }
+
+    </script>
 </head>
 
 <body>
 
 
     <div id="nav-bar">
-        <button class="nav-bar-small-button">
+        <button class="nav-bar-small-button" onclick="showSideBar()">
             ☰
         </button>
         <button class="nav-bar-small-button">
@@ -23,20 +32,29 @@
         <p id="nav-bar-text">
             SPACE & COSMOS
         </p>
-     
-        <button class="nav-bar-button">
-            Subscribe Now
-        </button>
+        <img src="images/NewYorkTimes.svg" alt="New York Times">
+
         <button class="nav-bar-button">
             Login
         </button>
-        <img src="images/NewYorkTimes.svg" alt="New York Times">
-
-
+        <button class="nav-bar-button">
+            Subscribe Now
+        </button>
+        <div class="clear"></div>
     </div>
 
-    <div id="side-bar">
-
+    <div id="side-bar" onmouseleave="hideSideBar()">
+        <ul>
+            <li>
+                Home Page
+            </li>
+            <li>
+                World
+            </li>
+            <li>
+                US
+            </li>
+        </ul>
     </div>
 
     <div id="container">

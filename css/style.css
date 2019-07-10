@@ -1,34 +1,73 @@
-*{
-    padding:0px;
-    margin:0px;
+* {
+    padding: 0px;
+    margin: 0px;
 }
 
-.nav-bar-small-button{
-    background-color:transparent;
-    border:none;
+#nav-bar {
+    border-bottom: 1px solid #e2e2e2;
+    padding-right: 15px;
+}
+
+.nav-bar-small-button {
+    background-color: transparent;
+    border: none;
     height: 30px;
     display: block;
     width: 30px;
-    float:left;
-
+    float: left;
 }
 
-.nav-bar-button{
+.nav-bar-button {
     float: right;
+    background-color: #6288a5;
+    border: 1px solid #326891;
+    border-radius: 4px;
+    height: 32px;
+    margin: 3px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
 }
-#nav-bar-text{
-    display:block;
 
-}
-#nav-bar-text{
-    width:10%;
-    float:left;
-   
-}
-
-#nav-bar img{
+#nav-bar-text {
     display: block;
-    width:10%;
-    margin:auto;
+}
 
+#nav-bar-text {
+    float: left;
+    padding-top: 5px;
+}
+
+#nav-bar img {
+    display: block;
+    position: absolute;
+    right: 50%;
+}
+
+.clear {
+    clear: both;
+}
+
+#side-bar{
+    display: none;
+    position: fixed;
+    border-right: 1px solid #e2e2e2;
+    top:0;
+    padding : 10px;
+    background: white;
+    height: 100%;
+}
+
+#side-bar li {
+    list-style-type: none;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+#side-bar li:hover {
+    background: #ccffff;
+    
 }
