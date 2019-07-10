@@ -1,0 +1,34 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.nav-bar-small-button{
+    background-color:transparent;
+    border:none;
+    height: 30px;
+    display: block;
+    width: 30px;
+    float:left;
+
+}
+
+.nav-bar-button{
+    float: right;
+}
+#nav-bar-text{
+    display:block;
+
+}
+#nav-bar-text{
+    width:10%;
+    float:left;
+   
+}
+
+#nav-bar img{
+    display: block;
+    width:10%;
+    margin:auto;
+
+}
