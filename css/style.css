@@ -1,3 +1,10 @@
+
+@font-face{
+    font-family: nyt-cheltenham;
+    src:url(../fonts/cheltenham-cond-normal-300.ttf);
+}
+
+
 * {
     padding: 0px;
     margin: 0px;
@@ -70,4 +77,55 @@
 #side-bar li:hover {
     background: #ccffff;
     
+}
+
+#container-header{
+    margin-top:30px;
+
+}
+#header-text{
+    width:30%;
+    font-size: 40px;
+    margin:auto;    
+    
+    font-style: italic bold;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    
+}
+
+#container-header img{
+    width:70%;
+    margin:auto;
+    display: block;
+}
+
+#container-header-footer{
+
+   width: 70%;
+   margin:auto;
+   margin-top:20px;
+}
+
+#section-1{
+    width:40%;
+    margin:auto;
+}
+
+#author{
+    margin-top:10px;
+}
+
+
+#social-container p{
+    float:left;
+}
+
+#social-container{
+    margin-top:20px;
+}
+.social-icon{
+    height:20px;
+    width:20px;
+    float:right;
+    padding:0 5px;
 }
