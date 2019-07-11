@@ -207,6 +207,48 @@
 
 }
 
+#section-4{
+    width:80%;
+}
+
+#section4-part1{
+    width:70%;
+    float:right;
+}
+
+#section4-part2{
+    width:30%;
+    float:right;
+}
+.section4-image-text-container{
+    width: 33%;
+    float:right;
+    margin-bottom:20px;
+}
+
+.section4-image-text-container img{
+    height:181.75px;
+    width: 272.633px;
+}
+
+.section4-image-owner{
+    font-size: 0.625rem;
+text-transform: none;
+text-align: right;
+color:#999999;
+padding-right:20px;
+}
+
+.section4-time{
+    font-size: 0.7rem;
+    color:rgb(153, 153, 153);
+}
+
+
+.section4-image-title{
+    font-size: 1.125rem;
+line-height: 22px;
+}
 
 /* #section-3 p{
     font-family:  nyt-imperial,georgia,'times new roman',times,serif;
