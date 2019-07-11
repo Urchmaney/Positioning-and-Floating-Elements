@@ -294,3 +294,43 @@ line-height: 22px;
     font-size: 0.8125rem;
 font-weight: 600;
 }
+
+footer{
+    width:90%;
+    border-top: 2px solid #e2e2e2;
+    margin:auto;
+}
+
+#footer-logo{
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+footer > ul{
+    float: left;
+    width:16%;
+}
+#footer-subscribe{
+    box-sizing: border-box;
+    border-left: 1px solid black;
+    padding-left : 15px; 
+    float: right;
+    width: 20%;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li:first-child{
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+footer ul li{
+    text-transform: capitalize;
+    margin-bottom: 7px;
+}
+
+#footer-subscribe ul li:first-child{
+    font-weight: 100;
+}
