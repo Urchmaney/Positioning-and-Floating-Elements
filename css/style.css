@@ -194,6 +194,40 @@
     
 }
 
+#section-3{
+    width:40%;
+    margin:auto;
+    margin-top:20px;
+
+}
+
+
+#section-3 p{
+    font-family:  nyt-imperial,georgia,'times new roman',times,serif;
+    color: #333;;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top:20px;
+    word-spacing: 8px;
+    
+}
+
+/* #section3-video-title{
+    font:10px;
+    color: #666;
+    font-size: 5px;
+    line-height: 0;
+    color:red;
+
+}  */
+#section3-video-container{
+    margin:30px 0;
+}
+#section-3 h2{
+    margin-top:15px;
+}
+
+
 /* #{
     images/inflation.png
 } */
