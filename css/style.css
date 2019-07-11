@@ -390,6 +390,7 @@ footer{
     width:90%;
     border-top: 2px solid #e2e2e2;
     margin:auto;
+    margin-bottom: 70px;
 }
 
 #footer-logo{
@@ -462,4 +463,18 @@ footer ul li{
 #footer-bottom-section ul li{
     float: left;
     margin-left:10px;
+}
+
+#stationary-footer{
+    position: fixed;
+    bottom:0px;
+    text-align: center;
+    background-color: #ffffff;
+    width:100%;
+}
+
+#stationary-footer button{
+    position: absolute;
+    bottom:15px;
+    right:100px;
 }
