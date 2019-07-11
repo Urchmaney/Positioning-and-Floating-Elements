@@ -150,6 +150,50 @@
     margin-top: 20px;
 }
 
-#{
-    images/inflation.png
+#section-2{
+    margin: auto;
+    width: 80%;
 }
+#section2-part1{
+    background-image: url(../images/inflation.png);
+    background-size: 945px 576px;
+    background-repeat: no-repeat;
+    width: 945px;
+}
+.section2-part1-element{
+    width:25%;
+    float: left;
+    margin-top:150px;
+    margin-bottom:0px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+}
+.bold{
+    font-weight: bold;
+}
+#section2-part1-line{
+    display: block;
+    border-bottom: 1px solid black;
+    width: 150px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+#section2-part1-author{
+    color:#333;
+}
+#section-2-header h1{
+    font-size:20px;
+    
+}
+#section-2-header p{
+    font-size:14px;
+    color: #666;
+    margin-top:15px; 
+    margin-bottom:15px; 
+    
+}
+
+/* #{
+    images/inflation.png
+} */
