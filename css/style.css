@@ -474,10 +474,19 @@ footer ul li{
     width:100%;
 }
 
+#stationary-footer p span{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 #stationary-footer button{
     position: absolute;
-    bottom:15px;
+    bottom:10px;
     right:100px;
+    background-color: transparent;
+    border:none;
+    width: 10px;
+    transform: rotate(-90deg);
 }
 .readmore-thumbnail{
     height:75px;
