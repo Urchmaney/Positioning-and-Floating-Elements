@@ -3,7 +3,9 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/all.css" />
+
+    <link rel="stylesheet" href="./css/style.css" />
     <title>
         Floating and Positioning
     </title>
@@ -23,7 +25,7 @@
                 document.getElementById("stationary-footer-show-full").style.bottom = "200px";
                 document.getElementById("stationary-footer-show-full").dataset.value = "false";
                 document.getElementById("stationary-footer-ad").style.display = "block";
-               
+
             }
             else {
                 document.getElementById("stationary-footer").style.height = "50px";
@@ -43,7 +45,7 @@
 <body>
 
 
-    <div id="nav-bar">
+    <nav id="nav-bar">
         <button class="nav-bar-small-button" onclick="showSideBar()">
             ☰
         </button>
@@ -52,10 +54,11 @@
 
         </button>
         <p id="nav-bar-text">
-            SPACE & COSMOS
+            <a href="#">SPACE & COSMOS</a>
         </p>
-        <img src="images/NewYorkTimes.svg" alt="New York Times">
-
+        <a href="#">
+            <img src="images/NewYorkTimes.svg" alt="New York Times">
+        </a>
         <button class="nav-bar-button">
             Login
         </button>
@@ -63,7 +66,7 @@
             Subscribe Now
         </button>
         <div class="clear"></div>
-    </div>
+    </nav>
 
     <div id="side-bar" onmouseleave="hideSideBar()">
         <ul>
@@ -142,11 +145,16 @@
                 <p>
                     March 17, 2014
                 </p>
-                <img class="social-icon" src="images/book-mark.svg" alt="Bookmark">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fas fa-envelope"></i>
+                <i class="fas fa-share"></i>
+                <i class="far fa-bookmark"></i>
+                <!-- <img class="social-icon" src="images/book-mark.svg" alt="Bookmark">
                 <img class="social-icon" src="images/share.svg" alt="Share">
                 <img class="social-icon" src="images/email.svg" alt="Email">
                 <img class="social-icon" src="images/twitter.svg" alt="Twitter">
-                <img class="social-icon" src="images/facebook.svg" alt="Facebook">
+                <img class="social-icon" src="images/facebook.svg" alt="Facebook"> -->
                 <div class="clear">
                 </div>
             </div>
@@ -388,11 +396,16 @@
                 <button id="section-3-readmore-button">
                     read 615 comments
                 </button>
-                <img class="social-icon" src="images/book-mark.svg" alt="Bookmark">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fas fa-envelope"></i>
+                <i class="fas fa-share"></i>
+                <i class="far fa-bookmark"></i>
+                <!-- <img class="social-icon" src="images/book-mark.svg" alt="Bookmark">
                 <img class="social-icon" src="images/share.svg" alt="Share">
                 <img class="social-icon" src="images/email.svg" alt="Email">
                 <img class="social-icon" src="images/twitter.svg" alt="Twitter">
-                <img class="social-icon" src="images/facebook.svg" alt="Facebook">
+                <img class="social-icon" src="images/facebook.svg" alt="Facebook"> -->
                 <div class="clear"></div>
             </div>
         </div>
@@ -548,7 +561,9 @@
     </div>
     <footer>
         <div id="footer-logo">
-            <img src="images/NewYorkTimes.svg" alt="Home page">
+            <a href="#">
+                <img src="images/NewYorkTimes.svg" alt="Home page">
+            </a>
         </div>
         <div id="footer-titles">
             <ul>
@@ -714,15 +729,15 @@
 
         <div id="stationary-footer-ad">
             <div id="stationary-footer-container">
-                    <img src="images/new-york.svg" alt="New York Logo">
-                    <p>
-                        Read 100 articles a day with free account;
-                    </p>
-                    <button>
-                        Continue
-                    </button>
+                <img src="images/new-york.svg" alt="New York Logo">
+                <p>
+                    Read 100 articles a day with free account;
+                </p>
+                <button>
+                    Continue
+                </button>
             </div>
-           
+
         </div>
 
     </div>
